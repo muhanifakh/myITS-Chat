@@ -1,70 +1,146 @@
-# Getting Started with Create React App
+# myITS Chat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, mobile-first messaging application designed for Institut Teknologi Sepuluh Nopember (ITS) students. Built with React and styled with Tailwind CSS, featuring a clean iOS-inspired interface.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+### Authentication
+- **myITS SSO Integration**: Secure login using ITS Single Sign-On
+- **Demo Mode**: Pre-configured demo credentials for testing
 
-### `npm start`
+### Messaging
+- **Group Chats**: Create and manage group conversations for classes
+- **Direct Messages**: One-on-one conversations with contacts
+- **Message Features**:
+  - Reply to messages
+  - Pin/unpin important messages
+  - Delete messages
+  - File attachments (images, documents, general files)
+  - URL link detection and formatting
+  - Long-press context menus
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Group Management
+- **Create Groups**: Set up new group chats with custom names and class associations
+- **Add Members**: Select contacts from your recently contacted list
+- **Group Info**: View and manage group details, members, and settings
+- **Delete Groups**: Remove groups when no longer needed
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Interface
+- **Mobile-First Design**: Optimized for mobile devices with iOS-style interface
+- **Status Bar**: Realistic mobile status bar with signal, WiFi, and battery indicators
+- **Smooth Animations**: Slide-up modals and transitions
+- **Responsive Design**: Works seamlessly across different screen sizes
 
-### `npm test`
+### Contact Management
+- **Profile Pages**: View contact information and details
+- **User Settings**: Manage your profile, name, status, and email
+- **Recently Contacted**: Quick access to recent conversations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Tech Stack
 
-### `npm run build`
+- **Frontend**: React 18
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Build Tool**: Create React App
+- **State Management**: React Hooks (useState, useEffect, useRef)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+src/
+├── Onboarding.js          # Welcome screen and login page
+├── Home.js                # Main dashboard with groups/DMs list
+├── gc.js                  # Group chat interface
+├── gcprof.js              # Group information page
+├── dm.js                  # Direct message interface
+├── dmprof.js              # Contact profile page
+├── makegc.js              # Create new group chat
+├── addmember.js           # Add members to group
+├── index.js               # App entry point
+└── index.css              # Global styles
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started
 
-### `npm run eject`
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd myits-chat
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-## Learn More
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Demo Credentials
+For testing purposes, use these credentials:
+- **Email**: `5025231010@student.its.ac.id`
+- **Password**: `password123`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎯 Usage
 
-### Code Splitting
+### Getting Started
+1. Launch the app and click "Login with myITS SSO"
+2. Enter the demo credentials or your actual ITS credentials
+3. Access the main dashboard with Groups and Direct Messages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Creating a Group Chat
+1. Click the edit icon (✎) in the top-right corner
+2. Enter a group name and select a class
+3. Add members from your contacts
+4. Click "Make Group" to create
 
-### Analyzing the Bundle Size
+### Messaging Features
+- **Send Messages**: Type in the input field and press Enter or click send
+- **Reply**: Long-press a message and select "Reply Message"
+- **Pin Messages**: Long-press and select "Pin Message" to highlight important messages
+- **Attach Files**: Click the "+" button to send images, documents, or other files
+- **Delete Messages**: Long-press and select "Delete Message"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Navigation
+- **Groups Tab**: View all your group conversations
+- **Direct Messages Tab**: Access one-on-one conversations
+- **Settings**: Manage your profile and account settings
 
-### Making a Progressive Web App
+## 🎨 Design Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Mobile-First Approach
+- Responsive design optimized for mobile devices
+- iOS-inspired interface with rounded corners and smooth animations
+- Native-like status bar and navigation
 
-### Advanced Configuration
+### Color Scheme
+- **Primary Blue**: `#013880` (ITS brand color)
+- **Light Blue**: `#e6f3ff` (backgrounds and accents)
+- **Gray Scale**: Various shades for text and UI elements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Interactive Elements
+- Long-press context menus for message actions
+- Slide-up modals for file selection and settings
+- Smooth transitions and hover effects
 
-### Deployment
+## 📱 Supported Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Current Functionality
+- ✅ User authentication with demo mode
+- ✅ Group chat creation and management
+- ✅ Direct messaging
+- ✅ Message replies and pins
+- ✅ File attachments simulation
+- ✅ Contact management
+- ✅ Responsive mobile interface
