@@ -2,6 +2,17 @@
 
 A modern, mobile-first messaging application designed for Institut Teknologi Sepuluh Nopember (ITS) students. Built with React and styled with Tailwind CSS, featuring a clean iOS-inspired interface.
 
+## 👥 Team
+
+**Group 7**
+
+This project was developed by:
+
+- **Anindya Diany Putri** - 5025231007
+- **Nathaniel Christine Martauli Simanullang** - 5025231010  
+- **Muhammad Hanif Fakhriansyah** - 5025231082
+- **Muhammad Rizqy Hidayat** - 5025231161
+
 ## 🚀 Features
 
 ### Authentication
