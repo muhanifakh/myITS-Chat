@@ -1,6 +1,20 @@
-# myITS Chat
+<div align="center">
 
-A modern, mobile-first messaging application designed for Institut Teknologi Sepuluh Nopember (ITS) students. Built with React and styled with Tailwind CSS, featuring a clean iOS-inspired interface.
+# MYITS-CHAT-APP
+
+*Modern, Mobile-First Messaging for ITS Students*
+
+![last commit](https://img.shields.io/badge/last_commit-june-blue)
+![react](https://img.shields.io/badge/react-18.2-61DAFB?logo=react)
+![tailwind](https://img.shields.io/badge/tailwind-3.0-38B2AC?logo=tailwind-css)
+![mobile](https://img.shields.io/badge/mobile-first-green)
+![demo](https://img.shields.io/badge/demo-available-brightgreen)
+
+*Built with the tools and technologies:*
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+</div>
 
 ## 👥 Team
 
